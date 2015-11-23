@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -18,8 +19,10 @@ class ViewController: UIViewController {
         print("Welcome to the Yellow App!")
         
         self.view.backgroundColor = UIColor.blueColor()
-        
+        self.view.backgroundColor = UIColor.redColor()
+        self.view.backgroundColor = UIColor.greenColor()
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
