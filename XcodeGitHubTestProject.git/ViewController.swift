@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         self.view.backgroundColor = UIColor.yellowColor()
+        
+        print("Welcome to the Yellow App!")
     }
 
     override func didReceiveMemoryWarning() {
