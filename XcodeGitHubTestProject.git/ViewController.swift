@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         self.view.backgroundColor = UIColor.yellowColor()
         print("Welcome to the Yellow App!")
         
+        self.view.backgroundColor = UIColor.blueColor()
+        
     }
 
     override func didReceiveMemoryWarning() {
