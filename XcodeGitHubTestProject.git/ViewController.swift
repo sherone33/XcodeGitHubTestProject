@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         
         print("Welcome to the GREEN App!")
         self.view.backgroundColor = UIColor.greenColor()
+        print("Really, its GREEEEEEN!!!!")
     }
     
 
